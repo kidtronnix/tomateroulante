@@ -4,7 +4,7 @@ module.exports = {
         handler: function(request, reply){
           // Render the view with the custom greeting
             reply.view('index', {
-                title: 'HAPI NINJA - Homepage'
+                title: 'The Rolling Tomato - Late Night Vegan Snacks'
             });
         },
         app: {
