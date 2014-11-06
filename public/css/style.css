@@ -89,12 +89,14 @@ a:focus {
 	min-height: 70px;
 	padding-top: 10px;
 	margin-bottom: 0px;
+
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
+	/*font-size: 20px;*/
 	font-weight: 900;
 }
+
 
 .navbar-header .navbar-brand {
 	color: white;
@@ -116,7 +118,8 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #384452;
+	/*background-color: #384452;*/
+	background-color: #151B14; 
 	border-color: transparent;
 }
 
@@ -194,22 +197,49 @@ a:focus {
 
 .hline {
 	border-bottom: 2px solid #384452;
+	margin-bottom: 5px;
 }
 
 .hline-w {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
 }
+.panel-group .panel {
+	border: none;
+	box-shadow: none;
+}
+
+.panel .panel-heading {
+	border: none;
+	background: transparent;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.panel .panel-heading h4.panel-title {
+	font-size: 14px;
+}
+.hand-writing {
+	font-family: 'Homemade Apple', cursive;
+}
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
 
 #headerwrap {
-	background-color: #00b3fe;
-	min-height: 550px;
+	background-color: #f4726d;
+	/*min-height: 550px;*/
 	padding-top: 100px;
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 	text-align: center;
+}
+
+#mapwrap .overlay {
+	background:transparent; 
+   	position:relative; 
+   	width:100%;
+   	height:480px; /* your iframe height */
+   	top:480px;  /* your iframe height */
+   	margin-top:-480px;  /* your iframe height */
 }
 
 #headerwrap h3, h5 {
@@ -226,6 +256,11 @@ a:focus {
 	margin: 0 auto;
 }
 
+/* Info wrap*/
+/*#infowrap i {
+	font-size: 30px;
+}*/
+
 /* Services Wrap */
 #service {
 	margin-top: 100px;
@@ -233,7 +268,7 @@ a:focus {
 }
 
 #service i {
-	color: #00b3fe;
+	color: #F4726D;
 	font-size: 60px;
 	padding: 15px;
 }
