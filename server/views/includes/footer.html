@@ -2,31 +2,30 @@
  	<div class="container">
 	 	<div class="row">
 	 		<div class="col-lg-4">
-	 			<h4>About</h4>
+	 			<h4>{{ content.footer.col1_h }}</h4>
 	 			<div class="hline-w"></div>
-	 			
-	 			<p>The Rolling Tomato is a Delivery service that has prepared items from local restaurants and chefs in the West Montreal area. We strive for superb products and affordable prices all to contribute to a better future for all of us.</p>
-
+	 			<p>{{ content.footer.col1_p }}</p>
 	 		</div>
 	 		<div class="col-lg-4">
-	 			<h4>Opening Hours</h4>
+	 			<h4>{{ content.footer.col2_h }}</h4>
 	 			<div class="hline-w"></div>
-	 			<p><strong>Thur - Sat</strong><br/>9pm - 4am</p>
+	 			<p><strong>{{ content.footer.col2_p1 }}</strong></p>
+	 			<p>{{ content.footer.col2_p2 }}</p>
 	 		</div>
 	 		<div class="col-lg-4">
-	 			<h4>Our Bikeshed</h4>
+	 			<h4>{{ content.footer.col3_h }}</h4>
 	 			<div class="hline-w"></div>
 	 			<p>
-	 				<a href="http://tomateroulante.com"><i class="fa fa-dribbble"></i></a>
-	 				<a href="https://www.facebook.com/pages/La-Tomate-Roulante/724581910962946?notif_t=fbpage_fan_invite"><i class="fa fa-facebook"></i></a>
-	 				<a href="https://twitter.com/tomateroulante"><i class="fa fa-twitter"></i></a>
+	 				<a href="http://www.tomateroulante.com"><i class="fa fa-dribbble"></i></a>
+	 				<a href="https://www.facebook.com/pages/{{ content.contact.facebook }}"><i class="fa fa-facebook"></i></a>
+	 				<a href="https://twitter.com/{{ content.contact.twitter }}"><i class="fa fa-twitter"></i></a>
 	 				<!-- <a href="#"><i class="fa fa-instagram"></i></a>
 	 				<a href="#"><i class="fa fa-tumblr"></i></a> -->
 	 			</p>
 	 			<p>
-	 				4420 Rue Langevin<br/>
-	 				Montreal, H4C 1E9<br/>
-	 				Canada.<br/>
+	 				{{ content.contact.street }}<br/>
+	 				{{ content.contact.city }}, {{ content.contact.postcode }}<br/>
+	 				{{ content.contact.country }}.<br/>
 	 			</p>
 	 		</div>
 	 	

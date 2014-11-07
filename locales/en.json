@@ -1,3 +1,60 @@
 {
-	"The Rolling Tomato" : "",
+    "navbar": {
+        "logoText": "The Rolling Tomato",
+        "menu": "MENU",
+        "otherLang": "FRANÇAIS",
+        "langLink": "/"
+    },
+    "header": {
+        "bigTag": "﻿Late Night Vegan Snacks",
+        "littleTag": "Delivering your munchy fix. It`s never too late to eat great.",
+        "or": "or",
+        "tweetOrder": "Tweet Your Order"
+    }, 
+    "service": {
+        "col1_h": "5 Dollars is Enough",
+        "col1_p": "We believe fast food is not the only price savvy option to eat. A truth about vegan food: It is cheap to make! Unfortunately, restaurants are expensive to maintain. We found the solution to this equation and are passing the savings to our customers. ",
+        "col2_h": "We want to feed you",
+        "col2_p": "Late night food choices can be limited.  Vegan food is delicious, satisfying and different and we offer creative, homemade snacks so you can feel guilt-free about eating late",
+        "col2_btn": "See our Menu!",
+        "col3_h": "Munchies Rolling your way",
+        "col3_p": "Don’t look for great food, call for it. Our bike delivery system strives to be speedy as well as ecological. So you can satisfy your hunger and we can help combat climate change."
+    },
+    "info": {
+        "col1_h": "About us",
+        "col1_p1": "Our idea stemmed from our own personal experiences, when looking for late night eats in the west of Montreal, we found French fries and falafel. We are not against those, but we also saw this as an opportunity to create a new market for vegan food. We want to promote veganism because it is not only healthy for you and the planet, but it is not expensive. So you can afford to eat great, even late!",
+        "col1_p2": "Colleen Risbey is the owner and an innovator who mashed up vegan late night eats on a bike delivery system. With her passion to feed people and to be eco-conscious The Rolling Tomato has sprouted from seed to your door. ",
+        "col2_h": "Frequently Asked",
+        "q1": "Is everything Vegan?",
+        "a1": " YES! Even the mayo!",
+        "q2": "How do I order?",
+        "a2": "Call our number and we will take your address and order and be on our way.",
+        "q3": "You are on a bike, How does this affect delivery service?",
+        "a3": "We are testing this out and will be challenged in the winter because it is cold, but we have confidence that biking will be just as fast as driving. We also assure you that your food will not be compromised; we wrap all of our food nice and snug and have in place ways to keep our food from bumping around.",
+        "q4": "Why can’t I make substitutions?",
+        "a4": "We prepare all of our food during the day and is packaged ready to go. Picture us as more of a canteen versus a restaurant where you can pick pre made items and enjoy them fast.",
+        "q5": "Do you have Gluten-free options?",
+        "a5": "Yes we do! Our Gluten free items are mentioned",
+        "q6": "Do you have Soy-free options?",
+        "a6": "Yes! We labelled the items that are soy free",
+        "q7": "Do you have nut-free options?",
+        "a7": "Yes, and many of our items are made with no contact with nuts, but again please be cautious for your safety we cannot guarantee a nut free environment as we do sell items with nuts. "
+    },
+    "footer": {
+        "col1_h": "Summary",
+        "col1_p": "The Rolling Tomato is a Delivery service that has prepared items from local restaurants and chefs in the West Montreal area. We strive for superb products and affordable prices all to contribute to a better future for all of us.",
+        "col2_h": "Opening Hours",
+        "col2_p1": "Thur - Sat",
+        "col2_p2": "9pm - 4am",
+        "col3_h": "Our Bikeshed"
+    },
+    "contact":{
+        "street": "4420 Rue Langevin",
+        "city" : "Montreal",
+        "postcode": "H4C 1E9",
+        "country": "Canada",
+        "facebook": "La-Tomate-Roulante/724581910962946",
+        "twitter": "tomateroulante",
+        "phone":"514-887-9899"
+    }
 }

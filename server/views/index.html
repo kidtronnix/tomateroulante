@@ -10,10 +10,10 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h3>Late Night Vegan Snacks</h3>
-					<h1 class="hand-writing">The Rolling Tomato</h1>
-					<h5>Delivering your munchy fix. It`s never too late to eat great.</h5>
-					<h5><a class="btn btn-success" href='tel:5148879899'><i class="fa fa-phone"></i> 514 887-9899</a> or <a ><a class="btn btn-primary" href="https://twitter.com/tomateroulante"><i class="fa fa-twitter"></i> Tweet your order</a></h5>				
+					<h3>{{ content.header.bigTag }}</h3>
+					<h1 class="hand-writing">{{ content.navbar.logoText }}</h1>
+					<h5>{{ content.header.littleTag }}</h5>
+					<h5><a class="btn btn-success" href='tel:{{ content.contact.phone }}'><i class="fa fa-phone"></i> {{ content.contact.phone }}</a> {{ content.header.or }} <a ><a class="btn btn-primary" href="https://twitter.com/{{ content.contact.twitter }}"><i class="fa fa-twitter"></i> {{ content.header.tweetOrder }}</a></h5>				
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 himg">
 					<a class="twitter-timeline"  href="https://twitter.com/tomateroulante" data-widget-id="529753107995951104">Tweets by @tomateroulante</a>
@@ -32,19 +32,19 @@
  			<div class="row centered">
  				<div class="col-md-4">
  					<i class="fa fa-money"></i>
- 					<h4>5 Dollars is Enough</h4>
- 					<p>A truth about vegan food: It is cheap to make! Unfortunately, restaurants are expensive to maintain. We found the solution to this equation and are passing the savings to our customers.</p>
+ 					<h4>{{ content.service.col1_h }}</h4>
+ 					<p>{{ content.service.col1_p }}</p>
  				</div>
  				<div class="col-md-4">
  					<i class="fa fa-heart-o"></i>
- 					<h4>We want to feed you</h4>
- 					<p>Late night food choices can be limited.  Vegan food is delicious, satisfying and different and we offer creative, homemade snacks so you can feel guilt-free about eating late.<br/></p>
- 					<p><a class="btn btn-info" href="/img/tomate-roulante-MENU-2014.pdf">See Our Menu!</a></p>
+ 					<h4>{{ content.service.col2_h }}</h4>
+ 					<p>{{ content.service.col2_p }}</p>
+ 					<p><a class="btn btn-info" href="/img/tomate-roulante-MENU-2014.pdf">{{ content.service.col2_btn }}</a></p>
  				</div>
  				<div class="col-md-4">
  					<i class="fa fa-bolt"></i>
- 					<h4>Munchies Rolling your way</h4>
- 					<p>Don’t look for great food, call for it. Our bike delivery system strives to be speedy as well as ecological. So you can satisfy your hunger and we can help combat climate change.</p>
+ 					<h4>{{ content.service.col3_h }}</h4>
+ 					<p>{{ content.service.col3_p }}</p>
  				</div>		 				
 	 		</div>
 	 	</div><!--/container -->
@@ -65,30 +65,26 @@
 	<div id="infowrap" class="container mtb">
 	 	<div class="row">
 	 		<div class="col-lg-4 col-lg-offset-1">
-		 		<h4>About Us</h4>
-		 		<p>Our idea stemmed from our own personal experiences, when looking for late night eats in the west of Montreal, we found French fries and falafel. We are not against those, but we also saw this as an opportunity to create a new market for vegan food. We want to promote veganism because it is not only healthy for you and the planet, but it is not expensive. So you can afford to eat great, even late!</p>
-		 		<p>Colleen Risbey is the owner and an innovator who mashed up vegan late night eats on a bike delivery system. With her passion to feed people and to be eco-conscious The Rolling Tomato has sprouted from seed to your door.
-		 		</p>
-
-
- 				<!-- <p><br/><a href="{{path.about}}" class="btn btn-theme">More Info</a></p> -->
+		 		<h4>{{ content.info.col1_h }}</h4>
+		 		<p>{{ content.info.col1_p1 }}</p>
+		 		<p>{{ content.info.col1_p2 }}</p>
 	 		</div>
 	 		
-	 		<div class="col-lg-7">
-	 			<h4>Frequently Asked</h4>
+	 		<div class="col-lg-6">
+	 			<h4>{{ content.info.col2_h }}</h4>
 	 			<div class="hline"></div>
 	 			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 				  <div class="panel panel-default">
 				    <div class="panel-heading" role="tab" id="headingOne">
 				      <h4 class="panel-title">
 				        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-				          Is everything Vegan?
+				          {{ content.info.q1 }}
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 				      <div class="panel-body">
-				        YES! Even the mayo!
+				        {{ content.info.a1 }}
 				      </div>
 				    </div>
 				  </div>
@@ -96,18 +92,14 @@
 				    <div class="panel-heading" role="tab" id="headingTwo">
 				      <h4 class="panel-title">
 				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-				          How do I order?
+				          {{ content.info.q2 }}
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
 				      <div class="panel-body">
-				        <p>Call our number and we will take your address and order and be on our way.
-				        </p>
-				        <p><a class="btn btn-success" href='tel:5148879899'><i class="fa fa-phone"></i> 514 887-9899</a> or <a ><a class="btn btn-primary" href="https://twitter.com/tomateroulante"><i class="fa fa-twitter"></i> Tweet your order</a></p>
-
-				         
-				         
+				        {{ content.info.a2 }}
+				        <p><a class="btn btn-success" href='tel:{{ content.contact.phone }}'><i class="fa fa-phone"></i> {{ content.contact.phone }}</a> {{ content.header.or }} <a ><a class="btn btn-primary" href="https://twitter.com/{{ content.contact.twitter }}"><i class="fa fa-twitter"></i> {{ content.header.tweetOrder }}</a></p>
 				      </div>
 				    </div>
 				  </div>
@@ -115,13 +107,13 @@
 				    <div class="panel-heading" role="tab" id="headingThree">
 				      <h4 class="panel-title">
 				        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-				          You are on a bike, How does this affect delivery service?
+				          {{ content.info.q3 }}
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 				      <div class="panel-body">
-				        We are testing this out and will be challenged in the winter because it is cold, but we have confidence that biking will be just as fast as driving. We also assure you that your food will not be compromised; we wrap all of our food nice and snug and have in place ways to keep our food from bumping around.
+				        {{ content.info.a3 }}
 				      </div>
 				    </div>
 				  </div>
@@ -129,13 +121,13 @@
 				    <div class="panel-heading" role="tab" id="headingFour">
 				      <h4 class="panel-title">
 				        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-				          Why can’t I make substitutions?
+				          {{ content.info.q4 }}
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 				      <div class="panel-body">
-				        We prepare all of our food during the day and is packaged ready to go. Picture us as more of a canteen versus a restaurant where you can pick pre made items and enjoy them fast.
+				        {{ content.info.a4 }}
 				      </div>
 				    </div>
 				  </div>
@@ -143,13 +135,13 @@
 				    <div class="panel-heading" role="tab" id="headingFive">
 				      <h4 class="panel-title">
 				        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-				          Do you have Gluten-free options?
+				          {{ content.info.q5 }}
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
 				      <div class="panel-body">
-				        Yes we do! Our Gluten free items are mentioned.
+				        {{ content.info.a5 }}
 				      </div>
 				    </div>
 				  </div>
@@ -157,13 +149,13 @@
 				    <div class="panel-heading" role="tab" id="headingSix">
 				      <h4 class="panel-title">
 				        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-				          Do you have Soy-free options?
+				          {{ content.info.q6 }}
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
 				      <div class="panel-body">
-				        <p>Yes! We labelled the items that are soy free</p>
+				        {{ content.info.a6 }}
 				      </div>
 				    </div>
 				  </div>
@@ -171,20 +163,20 @@
 				    <div class="panel-heading" role="tab" id="headingSeven">
 				      <h4 class="panel-title">
 				        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-				          Do you have nut-free options?
+				          {{ content.info.q7 }}
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
 				      <div class="panel-body">
-				        <p>Yes, and many of our items are made with no contact with nuts, but again please be cautious for your safety we cannot guarantee a nut free environment as we do sell items with nuts.</p>
+				        {{ content.info.a7 }}
 				      </div>
 				    </div>
 				  </div>
 				</div>
 	 		</div>
-	 	</div><! --/row -->
-	</div><! --/container -->
+	 	</div><!--/row -->
+	</div><!--/container -->
 	 
 	<!-- *****************************************************************************************************************
 	 TESTIMONIALS

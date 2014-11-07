@@ -1,43 +1,52 @@
 {
-    "header" :  {
-        "﻿bigTag": "﻿Late Night Vegan Snacks",
-        "logo": "The Rolling Tomato",
-        "littleTag": "It`s never too late to eat great."
+    "navbar": {
+        "logoText": "La Tomate Roulante",
+        "menu": "MENU",
+        "otherLang": "ENGLISH",
+        "langLink": "/en"
+    },
+    "header": {
+        "bigTag": "﻿Vegan Bouffe-Tard",
+        "littleTag": "La livraison de votre solution de munchy. Ils jamais trop tard pour manger bien.",
+        "or": "ou",
+        "tweetOrder": "Tweet votre commande"
     }, 
     "service": {
-        "col1_h": "We want to feed you",
-        "col1_p": "Late night food choices can be limited.  Vegan food is delicious, satisfying and different and we offer creative, homemade snacks so you can feel guilt-free about eating late",
-        "col2_h": "5 Dollars is Enough",
-        "col2_p": "We believe fast food is not the only price savvy option to eat. A truth about vegan food: It is cheap to make! Unfortunately, restaurants are expensive to maintain. We found the solution to this equation and are passing the savings to our customers. ",
-        "col3_h": "Munchies Rolling your way",
-        "col3_p": "Don’t look for great food, call for it. Our bike delivery system strives to be speedy as well as ecological. So you can satisfy your hunger and we can help combat climate change."
+        "col1_h": "5 Dollars est assez",
+        "col1_p": "Nous croyons que les restos rapide n'est pas le seul prix l'option de bon sens pour manger. A la vérité à propos de la nourriture végétalienne: Ce n’est pas cher à fabriquer! Malheureusement, les restaurants sont chers à entretenir. Nous avons trouvé la solution à cette équation et passons les économies à nos clients. ",
+        "col2_h": "Nous tenons à vous nourrir ",
+        "col2_p": "Choix alimentaires de fin de nuit peut être limités. La nourriture végétalienne est délicieux, satisfaisant et différente et nous offrons créatifs, des collations maison afin que vous pouvez sentir de manger tard sans culpabilité.",
+        "col2_btn": "Voir notre menu!",
+        "col3_h": "Munchies roulants votre chemin",
+        "col3_p": "Ne cherchez pas de la bonne nourriture, appeler pour lui. Notre système de livraison de vélo s'efforce d'être rapide ainsi que l'environnement. Ainsi, vous pouvez satisfaire votre faim et nous pouvons vous aider combattre le changement climatique."
     },
     "info": {
-        "col1_h": "About us",
-        "col1_p1": "Our idea stemmed from our own personal experiences, when looking for late night eats in the west of Montreal, we found French fries and falafel. We are not against those, but we also saw this as an opportunity to create a new market for vegan food. We want to promote veganism because it is not only healthy for you and the planet, but it is not expensive. So you can afford to eat great, even late!",
-        "col1_p2": "Colleen Risbey is the owner and an innovator who mashed up vegan late night eats on a bike delivery system. With her passion to feed people and to be eco-conscious The Rolling Tomato has sprouted from seed to your door. ",
+        "col1_h": "A Propos de Nous ",
+        "col1_p1": "Notre idée provient de nos expériences personnelles.  Quand vous cherchez mange de fin de nuit dans l'ouest de Montréal, nous avons trouvé des frites et falafel. Nous ne sommes pas contre ceux, mais nous avons aussi vu cela comme une occasion de créer un nouveau marché pour la nourriture végétalienne. Nous voulons promouvoir le style de vie vegan, car il est non seulement sain pour vous et la planète, mais ce n'est pas cher. Donc, vous pouvez vous permettre de manger bien, même tard!",
+        "col1_p2": "Colleen Risbey est le propriétaire et un innovateur qui créer un système de livraison de vélo jusqu'à tard dans la nuit avec  la bouffe végétalien. Avec sa passion pour nourrir les gens et d'être éco-conscient Le Tomate Roulant a germé à partir de graines à votre porte.",
         "col2_h": "F.A.Q",
-        "q1": "Is everything Vegan?",
-        "a1": " YES! Even the mayo!",
-        "q2": "How do I order?",
-        "a2": "Call our number and we will take your address and order and be on our way.",
-        "q3": "You are on a bike, How does this affect delivery service?",
-        "a3": "We are testing this out and will be challenged in the winter because it is cold, but we have confidence that biking will be just as fast as driving. We also assure you that your food will not be compromised; we wrap all of our food nice and snug and have in place ways to keep our food from bumping around.",
-        "q4": "Why can’t I make substitutions?",
-        "a4": "We prepare all of our food during the day and is packaged ready to go. Picture us as more of a canteen versus a restaurant where you can pick pre made items and enjoy them fast.",
-        "q5": "Do you have Gluten-free options?",
-        "a5": "Yes we do! Our Gluten free items are mentioned",
-        "q6": "Do you have Soy-free options?",
-        "a6": "Yes! We labelled the items that are soy free",
-        "q7": "Do you have nut-free options?",
-        "a7": "Yes, and many of our items are made with no contact with nuts, but again please be cautious for your safety we cannot guarantee a nut free environment as we do sell items with nuts. "
+        "q1": "Est tout végétalien?",
+        "a1": "OUI! Même la mayonnaise!",
+        "q2": "Comment puis-je commander?",
+        "a2": "Appelez notre numéro et nous prendrons votre adresse et de l'ordre et d'être sur la bonne voie.",
+        "q3": "Vous êtes sur un vélo, Comment cela affecte le service de livraison?",
+        "a3": "Nous faire examens cela et serons mis au défi en hiver parce qu'il fait froid, mais nous avons confiance que le vélo sera tout aussi rapide que la conduite. Nous vous assurons que vos aliments ne seront pas compromis; nous envelopper l'ensemble de notre  alimentaire et mettre en place des moyens de garder notre nourriture contre les chocs autour.",
+        "q4": "Pourquoi ne puis-je pas faire des substitutions?",
+        "a4": "Nous préparons notre nourriture pendant la journée et est emballé prêt à aller. Imaginez que nous plus d'une cantine par rapport à un restaurant où vous pouvez choisir la bouffe de pré faites et d'en profiter rapidement.",
+        "q5": "Avez-vous des plats sans gluten?",
+        "a5": "Oui nous faisons! Nos produits sans gluten sont mentionnés.",
+        "q6": "Avez-vous options sans soja?",
+        "a6": "Oui! Nous avons la bouffe qui sont sans soja.",
+        "q7": "Avez-vous sans noix options?",
+        "a7": "Oui, et plusieurs de nos articles sont fabriqués sans contact avec des noix. s'il vous plaît soyez prudent pour votre sécurité, nous ne pouvons pas garantir un environnement sans noix comme nous le faisons vendre des articles avec des écrous."
     },
     "footer": {
-        "col1_h": "Summary",
-        "col1_p": "The Rolling Tomato is a Delivery service that has prepared items from local restaurants and chefs in the West Montreal area. We strive for superb products and affordable prices all to contribute to a better future for all of us.",
-        "col2_h": "Opening Hours",
-        "col2_p": "<strong>Thur - Sat</strong><br>9pm - 4am",
-        "col3_h": "Our Bikeshed"
+        "col1_h": "Résumé",
+        "col1_p": "Le Tomate Roulant  est un service de livraison qui a préparé les aliments de restaurants locaux et les chefs de la région de l'Ouest de Montréal. Nous nous de superbes produits et des tarifs abordables tout de contribuer à un avenir meilleur pour nous tous.",
+        "col2_h": "Heures d'ouverture",
+        "col2_p1": "Jeudi - Samedi",
+        "col2_p2": "9pm - 4am",
+        "col3_h": "Notre Abri à Vélo"
     },
     "contact":{
         "street": "4420 Rue Langevin",
@@ -46,6 +55,6 @@
         "country": "Canada",
         "facebook": "La-Tomate-Roulante/724581910962946",
         "twitter": "tomateroulante",
-        "tel":"514-887-9899"
+        "phone":"514-887-9899"
     }
 }

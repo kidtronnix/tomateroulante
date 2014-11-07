@@ -11,7 +11,7 @@ module.exports = function(server) {
     var routeTable = [
         {
             method: 'GET',
-            path: '/',
+            path: '/{lang?}',
             config: controller.base.index
         },
         {

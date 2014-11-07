@@ -1,10 +1,15 @@
 // This is the base controller. Used for base routes, such as the default index/root path, 404 error pages, and others.
 module.exports = {
     index: {
-        handler: function(request, reply){
-          // Render the view with the custom greeting
+        handler: function(request, reply) {
+            var lang = request.params.lang || 'fr';
+
+            var content = require('../../locales/'+lang+'.json');
+            console.log(content);
+            // Render the view with the custom greeting
             reply.view('index', {
-                title: 'The Rolling Tomato - Late Night Vegan Snacks'
+                title: content.navbar.logoText +' - '+content.header.bigTag,
+                content: content
             });
         },
         app: {
