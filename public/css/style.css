@@ -227,6 +227,8 @@ a:focus {
 
 #headerwrap {
 	background-color: #f4726d;
+	background-image: url("/img/header_bg_blur.jpg");
+	background-position: bottom left; 
 	/*min-height: 550px;*/
 	padding-top: 100px;
 	padding-bottom: 20px;

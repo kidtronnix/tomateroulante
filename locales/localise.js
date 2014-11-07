@@ -1,4 +1,5 @@
 var fs = require('fs');
+var _localised = {};
 
 function readLines(input, func) {
 var remaining = '';
@@ -15,6 +16,10 @@ input.on('data', function(data) {
 });
 
 input.on('end', function() {
+  var json = JSON.stringify(_localised, null, 4);
+  // fs.writeFile("en.json", json); 
+  console.log(json);
+  console.log("wrote to en.json");
   if (remaining.length > 0) {
     console.log();
     func(remaining);
@@ -22,8 +27,14 @@ input.on('end', function() {
 });
 }
 
+
+
 function func(data) {
-  console.log('Line: ' + data);
+  if(data !== "" && data !== "\n" && data !== "\t" ) {
+    _localised[data] = data;
+  }
+  
+  
 }
 
 var input = fs.createReadStream('content.txt');
