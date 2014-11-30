@@ -11,7 +11,14 @@
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        <li><a href="/img/tomateroulante-menu.pdf">{{ content.navbar.menu }}</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ content.navbar.menu }} <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/img/tomateroulante-menu.pdf">{{ content.navbar.delivery }}</a></li>
+            <li><a href="/img/holiday-catering-menu.pdf">{{ content.navbar.catering }}</a></li>
+          </ul>
+        </li>
+        <li></li>
         <li><a href="{{ content.navbar.langLink }}">{{ content.navbar.otherLang }}</a></li>
       </ul>
     </div><!--/.nav-collapse -->

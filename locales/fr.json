@@ -2,6 +2,8 @@
     "navbar": {
         "logoText": "La Tomate Roulante",
         "menu": "MENU",
+        "delivery": "LIVRAISON",
+        "catering": "SERVICE DE TRAITEUR",
         "otherLang": "ENGLISH",
         "langLink": "/en"
     },

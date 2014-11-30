@@ -2,6 +2,8 @@
     "navbar": {
         "logoText": "The Rolling Tomato",
         "menu": "MENU",
+        "delivery": "DELIVERY",
+        "catering": "CATERING",
         "otherLang": "FRANÇAIS",
         "langLink": "/"
     },
